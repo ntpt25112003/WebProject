@@ -20,6 +20,9 @@ builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
 
+// Specify the HTTPS port
+app.Urls.Add("https://localhost:5206");
+
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
