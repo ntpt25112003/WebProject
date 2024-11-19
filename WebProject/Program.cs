@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using WebProject.Components;
 using WebProject.Components.Account;
 using WebProject.Data;
+using MudBlazor.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,6 +16,8 @@ builder.Services.AddCascadingAuthenticationState();
 builder.Services.AddScoped<IdentityUserAccessor>();
 builder.Services.AddScoped<IdentityRedirectManager>();
 builder.Services.AddScoped<AuthenticationStateProvider, IdentityRevalidatingAuthenticationStateProvider>();
+
+builder.Services.AddMudServices();
 
 builder.Services.AddAuthentication(options =>
     {
