@@ -16,4 +16,16 @@ internal sealed class IdentityUserAccessor(UserManager<ApplicationUser> userMana
 
         return user;
     }
+
+    public async Task<ApplicationUser> GetUserByUsernameAsync(string username)
+    {
+        var user = await userManager.FindByNameAsync(username);
+
+        if (user is null)
+        {
+            throw new InvalidOperationException($"Unable to load user with username '{username}'.");
+        }
+
+        return user;
+    }
 }
