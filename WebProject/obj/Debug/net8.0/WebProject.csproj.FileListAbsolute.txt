@@ -138,3 +138,5 @@ D:\WebProject\WebProject\obj\Debug\net8.0\WebProject.pdb
 D:\WebProject\WebProject\obj\Debug\net8.0\WebProject.genruntimeconfig.cache
 D:\WebProject\WebProject\obj\Debug\net8.0\ref\WebProject.dll
 d:\WebProject\WebProject\obj\Debug\net8.0\WebProject.sourcelink.json
+D:\WebProject\WebProject\bin\Debug\net8.0\MySqlConnector.dll
+D:\WebProject\WebProject\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll

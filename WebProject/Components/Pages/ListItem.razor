@@ -1,0 +1,33 @@
+@page "/items"
+@using Microsoft.EntityFrameworkCore
+@using WebProject.Data
+@inject ApplicationDbContext DbContext
+
+<h3>Items</h3>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in items)
+        {
+            <tr>
+                <td>@item.Name</td>
+                <td>@item.Price</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@code {
+    private List<Item> items = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        items = await DbContext.Items.ToListAsync();
+    }
+}
