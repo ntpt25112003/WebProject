@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "nQaei1o47K4O0v/Lk1cNs1pDb9H2oYxJ4QixAB068VA=",
+  "Hash": "52YrnWOw0pXznSgBkqa+fO/s/QjglDWsmPhjcwtgnFg=",
   "Source": "WebProject",
   "BasePath": "_content/WebProject",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "WebProject\\wwwroot",
       "Source": "WebProject",
-      "ContentRoot": "d:\\WebProject\\WebProject\\wwwroot\\",
+      "ContentRoot": "D:\\WebProject\\WebProject\\wwwroot\\",
       "BasePath": "_content/WebProject",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "d:\\WebProject\\WebProject\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WebProject.styles.css",
+      "Identity": "D:\\WebProject\\WebProject\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WebProject.styles.css",
       "SourceId": "WebProject",
       "SourceType": "Computed",
-      "ContentRoot": "d:\\WebProject\\WebProject\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\WebProject\\WebProject\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/WebProject",
       "RelativePath": "WebProject.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "d:\\WebProject\\WebProject\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WebProject.styles.css"
+      "OriginalItemSpec": "D:\\WebProject\\WebProject\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WebProject.styles.css"
     },
     {
-      "Identity": "d:\\WebProject\\WebProject\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebProject.bundle.scp.css",
+      "Identity": "D:\\WebProject\\WebProject\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebProject.bundle.scp.css",
       "SourceId": "WebProject",
       "SourceType": "Computed",
-      "ContentRoot": "d:\\WebProject\\WebProject\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\WebProject\\WebProject\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/WebProject",
       "RelativePath": "WebProject.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "d:\\WebProject\\WebProject\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebProject.bundle.scp.css"
+      "OriginalItemSpec": "D:\\WebProject\\WebProject\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebProject.bundle.scp.css"
     },
     {
-      "Identity": "d:\\WebProject\\WebProject\\wwwroot\\app.css",
+      "Identity": "D:\\WebProject\\WebProject\\wwwroot\\app.css",
       "SourceId": "WebProject",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\WebProject\\WebProject\\wwwroot\\",
+      "ContentRoot": "D:\\WebProject\\WebProject\\wwwroot\\",
       "BasePath": "_content/WebProject",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "d:\\WebProject\\WebProject\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "D:\\WebProject\\WebProject\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "WebProject",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\WebProject\\WebProject\\wwwroot\\",
+      "ContentRoot": "D:\\WebProject\\WebProject\\wwwroot\\",
       "BasePath": "_content/WebProject",
       "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "d:\\WebProject\\WebProject\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "D:\\WebProject\\WebProject\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "WebProject",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\WebProject\\WebProject\\wwwroot\\",
+      "ContentRoot": "D:\\WebProject\\WebProject\\wwwroot\\",
       "BasePath": "_content/WebProject",
       "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "d:\\WebProject\\WebProject\\wwwroot\\favicon.png",
+      "Identity": "D:\\WebProject\\WebProject\\wwwroot\\favicon.png",
       "SourceId": "WebProject",
       "SourceType": "Discovered",
-      "ContentRoot": "d:\\WebProject\\WebProject\\wwwroot\\",
+      "ContentRoot": "D:\\WebProject\\WebProject\\wwwroot\\",
       "BasePath": "_content/WebProject",
       "RelativePath": "favicon.png",
       "AssetKind": "All",
