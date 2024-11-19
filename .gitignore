@@ -6,7 +6,7 @@
 # User-specific files
 *.rsuser
 *.suo
-*.user
+*.user 
 *.userosscache
 *.sln.docstates
 
@@ -28,7 +28,14 @@ x86/
 [Aa][Rr][Mm]64/
 bld/
 [Bb]in/
+WebProject/bin/
+WebProject/bin/Debug/
+/bin/*
+bin/Debug/
 [Oo]bj/
+WebProject/obj/
+WebProject/obj/Debug/
+obj/Debug/
 [Ll]og/
 [Ll]ogs/
 
